@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.TrickController">
+   <children>
+      <ImageView fitHeight="142.0" fitWidth="800.0" pickOnBounds="true">
+         <image>
+            <Image url="@../controller/webbanner.jpg" />
+         </image>
+      </ImageView>
+      <Line endX="496.0" layoutX="302.0" layoutY="142.0" startX="-300.0" strokeLineJoin="BEVEL" strokeMiterLimit="200.0" strokeWidth="4.0" />
+      <Label layoutX="326.0" layoutY="191.0" text="Trick!">
+         <font>
+            <Font name="Algerian" size="55.0" />
+         </font>
+      </Label>
+      <Button fx:id="home" blendMode="DIFFERENCE" layoutX="718.0" layoutY="152.0" mnemonicParsing="false" onAction="#handle" text="Home" />
+      <Button fx:id="option1" layoutX="192.0" layoutY="399.0" mnemonicParsing="false" onAction="#handle" prefHeight="34.0" prefWidth="438.0">
+         <effect>
+            <Lighting diffuseConstant="1.51" specularConstant="1.29" specularExponent="28.61" surfaceScale="1.25">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant color="#ff6c00" />
+               </light>
+            </Lighting>
+         </effect>
+         <font>
+            <Font name="Agency FB" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="option3" layoutX="192.0" layoutY="515.0" mnemonicParsing="false" onAction="#handle" prefHeight="34.0" prefWidth="438.0">
+         <effect>
+            <Lighting diffuseConstant="1.51" specularConstant="1.29" specularExponent="28.61" surfaceScale="1.25">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant color="#ff6c00" />
+               </light>
+            </Lighting>
+         </effect>
+         <font>
+            <Font name="Agency FB" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="option2" layoutX="192.0" layoutY="456.0" mnemonicParsing="false" onAction="#handle" prefHeight="34.0" prefWidth="438.0">
+         <effect>
+            <Lighting diffuseConstant="1.51" specularConstant="1.29" specularExponent="28.61" surfaceScale="1.25">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant color="#ff6c00" />
+               </light>
+            </Lighting>
+         </effect>
+         <font>
+            <Font name="Agency FB" size="20.0" />
+         </font>
+      </Button>
+      <Label fx:id="answer" alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="114.0" layoutY="596.0" prefHeight="109.0" prefWidth="595.0" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="AdobeDevanagari-Regular" size="18.0" />
+         </font></Label>
+      <Label fx:id="question" alignment="CENTER" contentDisplay="CENTER" layoutX="136.0" layoutY="324.0" prefHeight="38.0" prefWidth="551.0" text="Label" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="AdobeDevanagari-Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.TreatController">
+   <children>
+      <ImageView fx:id="image" fitHeight="328.0" fitWidth="356.0" layoutX="222.0" layoutY="315.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="353.0" layoutY="216.0" text="Treat!">
+         <font>
+            <Font name="Agency FB" size="50.0" />
+         </font>
+      </Label>
+      <Button fx:id="home" blendMode="DIFFERENCE" layoutX="700.0" layoutY="162.0" mnemonicParsing="false" onAction="#handle" text="Home" />
+      <ImageView fitHeight="142.0" fitWidth="800.0" layoutY="-1.0" pickOnBounds="true">
+         <image>
+            <Image url="@../controller/webbanner.jpg" />
+         </image>
+      </ImageView>
+      <Line endX="496.0" layoutX="302.0" layoutY="141.0" startX="-300.0" strokeLineJoin="BEVEL" strokeMiterLimit="200.0" strokeWidth="4.0" />
+   </children>
+</AnchorPane>
